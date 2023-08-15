@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="info.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="menu-icon" id="hamburger">
+				<div class="hamburger">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<img class="logo" src="dart.png" />
+			<div class="header-menu" id="header-menu">
+				<a href="index.html">My Profile</a>
+				<a href="project.html">Projects</a>
+				<a href="bank.html">transfer information</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div> <br>
+
+		<div class="profile">
+			<div class="content1">
+				<img src="my.jpg" alt="a random avatar picture">
+				<div class="text">
+					<div class="content">
+						<h2>About Me</h2>
+						<p>Hello ! My name is Dat, my full name is Bui Quoc Dat. My date of birth is 20/06/2004 and I am
+							currently studying IT at the Vietnam - Korea School of IT and Communication and the course
+							is k22. Thank you for taking the time to view my information.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hometown">
+			<div class="text">
+				<div class="content">
+					<h2>My hometown</h2>
+					<p>My hometown is a place full of sand. Yes, that is Phu Cat Binh Dinh Province, but I live at the
+						top of Binh Dinh Pass with An Khe in Gia Lai Province. And now I'm living and studying in a
+						livable city that is Da Nang city :3</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="strengths">
+			<div class="text">
+				<div class="content">
+					<h2>My strengths and weaknesses</h2>
+					<p><b>- On strengths:</b> <br>
+						&emsp;+ Creativity <br>
+
+						&emsp;+ Flexible <br>
+
+						&emsp;+ Honesty <br>
+
+						&emsp;+ Enthusiasm/passion <br>
+
+						&emsp;+ Patience <br>
+
+						&emsp;+ Have discipline <br>
+
+						&emsp;+ Creativity <br>
+
+						&emsp;+ Ability to concentrate <br>
+
+						&emsp;+ Ability to navigate <br>
+						<b>- About the weak point: </b><br>
+						&emsp;+ Lack of organization and arrangement <br>
+
+						&emsp;+ Too sensitive Or self-criticism <br>
+
+						&emsp;+ Lack of experience in practicing skills <br>
+
+						&emsp;+ Not confident in front of the crowd <br>
+
+						&emsp;+ Doing too many things at once. <br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+
+	<script>
+		const hamburger = document.getElementById('hamburger');
+		const menu = document.getElementById('header-menu');
+
+		hamburger.addEventListener('click', () => {
+			menu.classList.toggle('active');
+		});
+
+	</script>
+</body>
+
+</html>

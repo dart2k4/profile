@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bank.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="menu-icon" id="hamburger">
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <img class="logo" src="dart.png" />
+                <div class="header-menu" id="header-menu">
+                    <a href="index.html">My Profile</a>
+                    <a href="project.html">Projects</a>
+                    <a href="bank.html">transfer information</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div> <br>
+
+            <ul id="app" >
+	<li id="credit-card" data-state="out">
+		<div class="card credit">
+			<h1>VIETCOMBANK</h1>
+			<div class="chip"></div>
+			<div class="embossed number">9363 638 622</div>
+			<div class="embossed date">BUI QUOC DAT</div>
+		</div>
+	</li>
+	<li id="birthday-card" data-state="in">
+		<div class="card birthday">
+			<div class="front">
+				<img src="bankmy1.jpg" alt="bank">
+			</div>
+			<div class="back"></div>
+							
+		</div>
+	</li>
+	<li id="playing-card" data-state="show">
+		<div class="card birthday">
+			<div class="front">
+				<img src="bankmy2.jpg" alt="bank">
+			</div>
+			<div class="back"></div>
+							
+		</div>
+	</li>
+</ul>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <script>
+		const hamburger = document.getElementById('hamburger');
+		const menu = document.getElementById('header-menu');
+
+		hamburger.addEventListener('click', () => {
+			menu.classList.toggle('active');
+		});
+
+	</script>
+    <script src="bank.js"></script>
+    </body>
+
+</html>
