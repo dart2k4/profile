@@ -133,12 +133,6 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 930px) {
-  .left-side {
-    text-align: center;
-    max-width: 450px;
-  }
-}
 
 .hamburger {
   display: none;
@@ -265,7 +259,7 @@ b {
   }
 }
 
-.hometown h2{
+.content h2{
   border-left: 4px solid rgb(0, 0, 0);
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
